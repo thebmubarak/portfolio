@@ -45,3 +45,5 @@ jsAnimate(document.querySelectorAll("#testimonial>div>div"), 't-card-inview', 'a
 jsAnimate(document.querySelectorAll("#service>div>div"), 't-card-inview', 'animate-t-card');
 jsAnimate(document.querySelectorAll("#process>div>div"), 't-card-inview', 'animate-t-card');
 jsAnimate(document.querySelectorAll("#cta>div"), 't-card-inview', 'animate-t-card');
+jsAnimate(document.querySelectorAll("#about div:first-of-type"), 'r-card-inview', 'animate-r-card');
+jsAnimate(document.querySelectorAll("#about div:last-of-type"), 'q-card-inview', 'animate-q-card');
