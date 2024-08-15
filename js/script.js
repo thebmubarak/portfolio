@@ -1,4 +1,4 @@
-/*Acys bamif script.js 08.02.2023*/
+/*ApexBam script.js 15.08.2024*/
 
 function jsAnimate(h2s, inview, animate) {
 	"use strict";
