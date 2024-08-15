@@ -1,4 +1,4 @@
-/*Apexcys style.css 08.02.2024*/
+/*ApexBam style.css 15.08.2024*/
 
 @import url("https://fonts.googleapis.com/css2?family=Open Sans:wght@400;700&family=Merriweather+Sans:wght@400;700&display=swap");
 
@@ -38,6 +38,24 @@ body {
 .t-card-inview {
 	opacity:1;
 	margin-top:0;
+}
+.animate-q-card {
+	opacity:0;
+	transform:scale(0.7);
+	transition:all 1s;
+}
+.q-card-inview {
+	opacity:1;
+	transform:scale(1);
+}
+.animate-r-card {
+	opacity:0;
+	transform:scale(0.7);
+	transition:all 1s;
+}
+.r-card-inview {
+	opacity:1;
+	transform:scale(1);
 }
 
 /*..........logo style*/
@@ -178,7 +196,7 @@ h2.sub-head {
   -webkit-animation: scroll  20s linear infinite;
   animation: scroll 20s linear infinite;
   display: flex;
-  width: calc(130px * 6);
+  width: calc(130px * 8);
 }
 .slider .slide {
   height: 100px;
@@ -497,6 +515,11 @@ a.button.btn-dark:hover {
 p.block {
 	line-height:1.5;
 	letter-spacing:.5px;
+}
+p.block2 {
+	line-height:1.5;
+	letter-spacing:.5px;
+	color:#fff;
 }
 
 /*........,.footer*/
