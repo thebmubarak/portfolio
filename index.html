@@ -1,346 +1,612 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Website design, SEO and Content Writng for Serious brands">
-	<meta name="author" content="Mubarak Balogun">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>ApexBam: Website Developer</title>
-	<script src="https://kit.fontawesome.com/0c60fc5e1d.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="shortcut icon" href="images/myfavicon.png" type="image/x-icon">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>B. Mubarak — Wordpress Developer</title>
+  <meta name="description" content="Crafting high-converting websites, landing pages, and WooCommerce experiences. Portfolio of B. Mubarak (WordPress Developer & Front-End)." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+</head>
 <body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="brand">
+        <img src="images/logo.png" alt="Bmubarak Logo">
+      </div>
+      <nav class="nav-actions">
+        <a href="#projects" class="btn sm ghost"><svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M4 12h16M4 6h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Work</a>
+        <a href="#contact" class="btn sm"><svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M4 4h16v16H4z" stroke="currentColor" stroke-width="2"/><path d="M4 7l8 6 8-6" stroke="currentColor" stroke-width="2"/></svg>Contact</a>
+      </nav>
+    </div>
+  </header>
 
-<!--top collapsible navigation on small screen and full on large-->
-	<nav class="nav">
-		<img src="images/mylogo.png" alt="apexbam logo">
-	</nav>
-	
-<div class="toTop"><a href="#">∆</a></div>
-<!--slide down indicator animation-->
-	<div class="slide-down">
-		<div class="slideRight"> <p class="right">slide down ↔</p></div>
-		<div class="slideLeft"> <p class="left">slide down ↔</p></div>
-	</div>
-	
+  <main>
+    <!-- HERO -->
+    <section class="hero container">
+      <div class="hero-grid">
+        <div>
+          <span class="pill reveal"><span class="dot"></span><span>WordPress & WooCommerce Specialist</span></span>
+          <h1 class="headline reveal" style="transition-delay:.05s">Building high-converting websites that rank, load fast, and sell.</h1>
+          <p class="sub reveal" style="transition-delay:.1s">Forget cookie-cutter templates. I build SEO-ready, lightning-fast WordPress sites and landing pages that rank higher, load instantly, and convert visitors into paying customers.</p>
+          <div class="hero-ctas reveal" style="transition-delay:.15s">
+            <a href="#projects" class="btn primary">See My Work</a>
+            <a href="mailto:thebmubarak@gmail.com" class="btn ghost">Book a Consultation</a>
+          </div>
+        </div>
+        <div class="hero-card reveal" style="transition-delay:.15s">
+          <img src="images/mubarak.jpg" alt="Bmubarak Image">
+          <h4 class="muted" style="margin-top:.6rem;font-size:1.5rem">Name: <strong style="color:white;">Mubarak Balogun</strong> • <br> <small>Email: <a href="mailto:thebmubarak@gmail.com">thebmubarak@gmail.com</a></small></h4>
+        </div>
+      </div>
+    </section>
 
-<!--header section-->
-	<header class="header-main bg-ddf">
-		<div class="header-outer">
-			<div class="header-inner">
-				<h1>Crafting High Converting Websites & Landing Pages</h1>
-				<p>Stand out in a sea of ordinary. Elevate your business with custom websites and landing pages designed to maximize conversions and supercharge your sales.<br>
-				<small>Founder: Balogun Mubarak.</small></p>
-				<a href="mailto:apexbamif@gmail.com" class="button">Let's Connect</a>
-			</div>
-		</div>
-	</header>
-	
-<!--marquee section-->
-	<section id="marquee">
-		<marquee>Websites . Designs . Content Writing . SEO . HTML . CSS . Javascript . Bootstrap . JQuery . PHP . MYSQL . Wordpress . Shopify . Automation . Analytics . Virtual assistance . Maintenance . Serious Brands .</marquee>
-	</section>
 
-<!--call to action-->
-<section class="padded" id="about">
-	
-	<h2 class="sub-head">About ApexBam</h2>
-	<div>
-		<p class="block">At ApexBam, we specialize in designing high-converting websites and landing pages that drive new leads and customers to your business. With over 3 years of experience in Front-End Development, WordPress, and Shopify, we deliver tailored web solutions for both market leaders and startups, ensuring your online presence not only stands out but also delivers results.</p>
-		<a href="mailto:apexbamif@gmail.com" class="button">Let's Connect</a>
-	</div>
-	<div>
-		<img class="img" src="images/coder.webp"  alt="coder">
-	</div>
-	
+<!-- KEYWORDS MARQUEE (infinite scroll) -->
+<div class="marquee-wrap">
+  <div class="container" style="overflow:hidden">
+    <div class="marquee" aria-hidden="true">
+      <span class="chip">WordPress</span><span class="chip">WooCommerce</span><span class="chip">Elementor</span><span class="chip">SEO</span><span class="chip">Core Web Vitals</span><span class="chip">Speed</span><span class="chip">Analytics</span><span class="chip">Blog</span><span class="chip">Redesign</span><span class="chip">Maintenance</span>
+      <span class="chip">WordPress</span><span class="chip">WooCommerce</span><span class="chip">Elementor</span><span class="chip">SEO</span><span class="chip">Core Web Vitals</span><span class="chip">Speed</span><span class="chip">Analytics</span><span class="chip">Blog</span><span class="chip">Redesign</span><span class="chip">Maintenance</span>
+    </div>
+  </div>
+</div>
+
+<!-- ABOUT (info left, image right) -->
+<section id="about">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">About</div>
+        <h2 class="title">Short intro</h2>
+      </div>
+    </div>
+    <div class="about-grid">
+      <div class="about-card reveal">
+        <h3 style="margin:.2rem 0 1rem">I build lean, high-performing sites</h3>
+        <p class="muted">I’m a professional web designer with 5+ years of experience in WordPress, WooCommerce, and front-end design. I design new websites from the ground up and also transform underperforming ones into clean, scalable, and conversion-focused platforms — helping businesses capture more sales and grow online with confidence.
+        <Br><Br>What I’m known for:</p>
+        <ul class="muted" style="margin:.8rem 0 0; padding-left:1rem">
+          <li>Landing pages and websites built for conversions.</li>
+          <li>Seamless WooCommerce checkout & subscription flows.</li>
+          <li>Speed, SEO & Core Web Vitals optimization.</li>
+          <li>Blog + content systems with structured architecture.</li>
+        </ul>
+        <div style="margin-top:1rem;display:flex;gap:.6rem;flex-wrap:wrap">
+          <a class="btn sm" href="mailto:thebmubarak@gmail.com">Email Me</a>
+          <a class="btn sm ghost" href="#projects">View Work</a>
+        </div>
+      </div>
+      <div class="about-card reveal" style="transition-delay:.08s">
+        <div class="about-media">
+          <img alt="Mubarak balogun" src="images/trans.jpg" style="width:100%;height:auto;margin: auto;" />
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
-		
-<!--brands section-->
-	<section class="padded" id="brand">
-	
-		<h2 class="sub-head">Our Brand Collaborations</h2>
-		
-		<div class="slider">
-			<div class="slide-track">
-				<div class="slide">
-					<img src="images/brand (9).png"  alt="brand image" />
-				</div>
-				<div class="slide">
-					<img src="images/brand (8).png"  alt="brand image" />
-				</div>
-				<div class="slide">
-					<img src="images/brand (7).png"  alt="brand image" />
-				</div>
-				<div class="slide">
-					<img src="images/brand (0).png"  alt="brand image" />
-				</div>
-				<div class="slide">
-					<img src="images/brand (5).png"  alt="brand image" />
-				</div>
-				<div class="slide">
-					<img src="images/brand (6).png"  alt="brand image" />
-				</div>
-				<div class="slide">
-					<img src="images/brand (11).png"  alt="brand image" />
-				</div>
-				<div class="slide">
-					<img src="images/brand (12).png"  alt="brand image" />
-				</div>
-			</div>
-		</div>
-	</section>
-	
-	
-<!--services section-->
-	<section class="padded" id="service">
-	
-		<h2 class="sub-head">Our Solutions</h2>
-		
-		<div class="services">
-		
-			<div>
-				<div class="icon-top">
-					<i class="fa fa-globe"></i>
-				</div>
-				<div>
-					<h3>Website Design & SEO</h3>
-					<p>Our SEO-optimized websites are crafted to perfection, ensuring that your Exceptional Products and  Services are presented in the best possible light to your target audience.</p>
-				</div>
-			</div>
-			
-			<div>
-				<div class="icon-top">
-					<i class="fa fa-chart-simple"></i>
-				</div>
-				<div>
-					<h3>Content Writing</h3>
-					<p>Our SEO-Friendly and Keyword-rich Website & Blog content are tailored to showcasing your Products and services to the right audience, driving brand awareness, Traffic and sales.</p>
-				</div>
-			</div>
-			
-			<div>
-				<div class="icon-top">
-					<i class="fa fa-headset"></i>
-				</div>
-				<div>
-					<h3>Virtual assistance and Management</h3>
-					<p>Our remote support services provide seamless operations for your brand, allowing you to focus on creating exceptional products and services while we handle the rest.</p>
-				</div>
-			</div>
-		</div>
-		
-	</section>
-	
 
-<!--processes section-->
-	<section class="padded" id="process">
-		<h2 class="sub-head">The Process</h2>
-		
-		<div>
-			<div>
-				<img src="images/process1.gif" alt="process1">
-				<h3>Research and Planning</h3>
-				<p>We begin by thoroughly understanding your needs, goals, and preferences to lay a strong foundation for the project.</p>
-			</div>
-			
-			<div>
-				<img src="images/process2.gif" alt="process2">
-				<h3>Design and Development</h3>
-				<p>We give a customized design and strategy based on the initial research, ensuring a tailored approach to meet your requirements.</p>
-			</div>
-			
-			<div>
-				<img src="images/process3.gif" alt="process3">
-				<h3>Launch and Support</h3>
-				<p>Once the project is ready, We handle the launch and provide ongoing support to optimize performance and ensure long-term success.</p>
-			</div>
-		</div>
-		<a href="mailto:apexbamif@gmail.com" class="button">Let's Connect</a>
-		
-	</section>
-		
-		
-<!--portfolio section-->
-	
-	<section class="padded" id="project">
+<!-- SERVICES (compressed to 3) -->
+<section id="services">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">Services</div>
+        <h2 class="title">What I deliver</h2>
+      </div>
+    </div>
+    <div class="cards">
+      <article class="card reveal">
+        <div class="card-top">
+          <div class="ico" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M3 4h18v14H3z" stroke="currentColor" stroke-width="2"/><path d="M8 20h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+          <h4>WordPress & Woocommerce</h4>
+        </div>
+        <p>Custom themes, landing pages, WooCommerce stores, subscriptions, secure checkout.</p>
+      </article>
+      <article class="card reveal" style="transition-delay:.05s">
+        <div class="card-top">
+          <div class="ico" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M12 3v18M3 12h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+          <h4>Speed & SEO</h4>
+        </div>
+        <p>Faster load times, Core Web Vitals, caching, schema, and on-page SEO that gets results.</p>
+      </article>
+      <article class="card reveal" style="transition-delay:.1s">
+        <div class="card-top">
+          <div class="ico" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M5 12l4 4 10-10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+          <h4>Maintenance & Analytics</h4>
+        </div>
+        <p>Updates, backups, content workflows, GA4/GSC integration, reporting, and ongoing optimization.</p>
+      </article>
+    </div>
+  </div>
+</section>
 
-		<h2 class="sub-head">Case Studies</h2>
-		<p class="block2">It's only a drop in the ocean compared to the entire list.</p>
-		<div class="project">
-			<div class="project-div">
-				<img src="images/project1.jpg">
-				<h3>Paw.com</h3>
-				<div class="project-text">
-					<h4>Shopify Website Design</h4>
-					<a href="https://paw.com" class="project-btn">Check It Out</a>
-				</div>
-			</div>
-			
-			<div class="project-div">
-				<img src="images/project2.jpg">
-				<h3>Solar Optimum</h3>
-				<div class="project-text">
-					<h4>Wordpress Website Design</h4>
-					<a href="https://solaroptimum.com" class="project-btn">Check It Out</a>
-				</div>
-			</div>
+<!-- PROCESS -->
+<section id="process">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">Process</div>
+        <h2 class="title">How I work</h2>
+      </div>
+    </div>
+    <div class="timeline">
+      <div class="step reveal"><div class="num">01 — Research & Planning</div><h4>Understand & Scope</h4><p class="muted">clear scope, goals, and roadmap.</p></div>
+      <div class="step reveal" style="transition-delay:.1s"><div class="num">02 — Design & Build</div><h4>WordPress & Woo</h4><p class="muted">WordPress + WooCommerce with SEO baked-in.</p></div>
+      <div class="step reveal" style="transition-delay:.15s"><div class="num">03 — Launch</div><h4>QA & Handoff</h4><p class="muted">QA, deployment, and client handoff.</p></div>
+      <div class="step reveal" style="transition-delay:.2s"><div class="num">04 — Support</div><h4>Iterate</h4><p class="muted">track analytics and iterate for growth.</p></div>
+    </div>
+  </div>
+</section>
 
-			<div class="project-div">
-				<img src="images/project3.jpg">
-				<h3>My House Keeping</h3>
-				<div class="project-text">
-					<h4>Wordpress Website Design</h4>
-					<a href="https://myhousekeeping.co.uk" class="project-btn">Check It Out</a>
-				</div>
-			</div>
+<!-- Soft CTA --> 
+<div class="container">
+  <div style="margin-top:1rem;text-align: center;margin:auto">
+    <a class="btn primary sm" style="display:inline-block;margin-right:1.2rem ;" href="mailto:thebmubarak@gmail.com">Email Me</a>
+    <a class="btn sm ghost" href="#projects">View Work</a>
+  </div>
+</div>
 
-			<div class="project-div">
-				<img src="images/project4.jpg">
-				<h3>AB Decorators</h3>
-				<div class="project-text">
-					<h4>Front-End Web Design</h4>
-					<a href="https://bit.ly/abdecorators" class="project-btn">Check It Out</a>
-				</div>
-			</div>
-			
-			<div class="project-div">
-				<img src="images/project5.jpg">
-				<h3>Austin Morell Training</h3>
-				<div class="project-text">
-					<h4>Wordpress Website Design</h4>
-					<a href="https://austinmorelltraining.com" class="project-btn">Check It Out</a>
-				</div>
-			</div>
+<!-- BRANDS (images x10) -->
+<section id="brands">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">Brands</div>
+        <h2 class="title">Some Brands I’ve worked with</h2>
+      </div>
+    </div>
+    <div class="brand-grid">
+      <div class="brand-item reveal"><img alt="Brand 1" src="images/brand00.png"></div>
+      <div class="brand-item reveal" style="transition-delay:.03s"><img alt="Brand 2" src="images/brand01.png"></div>
+      <div class="brand-item reveal" style="transition-delay:.06s"><img alt="Brand 3" src="images/brand02.png"></div>
+      <div class="brand-item reveal" style="transition-delay:.09s"><img alt="Brand 4" src="images/brand03.png"></div>
+      <div class="brand-item reveal" style="transition-delay:.12s"><img alt="Brand 5" src="images/brand04.png"></div>
+      <div class="brand-item reveal" style="transition-delay:.15s"><img alt="Brand 6" src="images/brand05.png"></div>
+      <div class="brand-item reveal" style="transition-delay:.18s"><img alt="Brand 7" src="images/brand06.png"></div>
+      <div class="brand-item reveal" style="transition-delay:.21s"><img alt="Brand 8" src="images/brand10.png"></div>
+      <div class="brand-item reveal" style="transition-delay:.24s"><img alt="Brand 9" src="images/brand08.png"></div>
+      <div class="brand-item reveal" style="transition-delay:.27s"><img alt="Brand 10" src="images/brand09.png"></div>
+    </div>
+  </div>
+</section>
 
-			<div class="project-div">
-				<img src="images/project6.jpg">
-				<h3>Discern Decor</h3>
-				<div class="project-text">
-					<h4>woocommerce Store Design</h4>
-					<a href="https://discerndecor.com" class="project-btn">Check It Out</a>
-				</div>
-			</div>
-		</div>
-		
-	</section>
-	
-<!--testimonial section-->
-	<section class="padded" id="testimonial">
-		<h2 class="sub-head">Some Feedbacks</h2>
-		
-		<div>
-			<div class="block">
-				<p>"You know what's funny about the blog is you actually found some stuff that I didn't know, so I'm actually reading my own website to learn some stuff,LOL it's a job well done."</p>
-				<img src="images/brand (12).png" alt="brand image">
-			</div>
-			<div class="block">
-				<p>"It all looks good now, I'm looking forward to working with you again."</p>
-				<img src="images/brand (11).png" alt="brand image">
-			</div>
-			<div class="block">
-				<p>"I still can't imagine what my website might look like without you, I'm mostly impressed by the way you fixed my navigation."</p>
-				<img src="images/brand (0).png" alt="brand image">
-			</div>
-			<div class="block">
-				<p>"You've been a great asset to developing our brands online."</p>
-				<img src="images/brand (6).png" alt="brand image">
-			</div>
-		</div>
-		<a href="mailto:apexbamif@gmail.com" class="button">Let's Connect</a>
-		
-	</section>
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">Testimonials</div>
+        <h2 class="title">What clients say</h2>
+      </div>
+    </div>
+    <div class="testis">
+      <article class="quote reveal">
+        <p>"You actually found some stuff I didn't know, so I'm reading my own website to learn. It's a job well done."</p>
+        <img alt="Our Levitated Minds" src="images/brand11.png">
+      </article>
+      <article class="quote reveal" style="transition-delay:.05s">
+        <p>"I can't believe the website looks perfect now. Looking forward to working with you again, Mubarak."</p>
+        <img alt="My HouseKeeping UK" src="images/brand10.png">
+      </article>
+      <article class="quote reveal" style="transition-delay:.1s">
+        <p>"I never imagined my website could be better. I'm mostly impressed by how Fast you Completed The Revamp."</p>
+        <img alt="Power Beyond Psoriasis" src="images/brand00.png">
+      </article>
+    </div>
+  </div>
+</section>
 
-<!--faq section-->
-	<section class="padded" id="faq">
-	
-		<h2 class="sub-head">Frequently Asked Questions</h2>
-		<ul>
-			<li>
-				<label>
-					<input type="checkbox" checked="">
-					<i></i>
-					<h4>Do you offer your services to every business niche?</h4>
-					<p>We only focus is elevating SERIOUS brands through website design, SEO and Marketing, We can only help if you are <big><b>READY</b></big> to take your business to the next level.</p>
-				</label>
-			</li>
-			
-			<li>
-				<label>
-					<input type="checkbox" checked="">
-					<i></i>
-					<h4>How long does it take to develop a Professional website?</h4>
-					<p>The timeline for developing a professional website depends on the complexity of the project and the client's specific requirements. We work closely with our clients to establish a realistic timeline and ensure timely delivery.</p>
-				</label>
-			</li>
-			
-			<li>
-				<label>
-					<input type="checkbox" checked="">
-					<i></i>
-					<h4>What is the cost of a Professsional website?</h4>
-					<p>The cost of a Professsional website varies depending on the scope of the project and the specific services required. We provide customized quotes based on each client's unique needs and budget.</p>
-				</label>
-			</li>
-		
-			<li>
-				<label>
-					<input type="checkbox" checked="">
-					<i></i>
-					<h4>What is the process for updating a Professional website?</h4>
-					<p>We offer ongoing maintenance and support services to ensure that your  websites remain up-to-date and optimized for performance. Our team works closely with clients to identify areas for improvement and implement updates as needed.</p>
-				</label>
-			</li>
-			
-			<li>
-				<label>
-					<input type="checkbox" checked="">
-					<i></i>
-					<h4>How does Apexcys optimize My websites for search engines?</h4>
-					<p>We use a range of SEO techniques, including keyword research, on-page optimization, link building, and content creation, to ensure that your Professional websites rank well in search engine results pages.</p>
-				</label>
-			</li>
-			
-			<li>
-				<label>
-					<input type="checkbox" checked="">
-					<i></i>
-					<h4>What is the process for maintaining my Professsional website?</h4>
-					<p>We offer ongoing maintenance and support services to ensure that Your websites remain secure, up-to-date, and optimized for performance. Our team handles updates, backups, and security monitoring to ensure that the website runs smoothly and efficiently.</p>
-				</label>
-			</li>
-		</ul>
-		
-	</section>
+<!-- Soft CTA --> 
+<div class="container">
+  <div style="margin-top:1rem;text-align: center;margin:auto">
+    <a class="btn primary sm" style="display:inline-block;margin-right:1.2rem ;" href="mailto:thebmubarak@gmail.com">Email Me</a>
+    <a class="btn sm ghost" href="#projects">View Work</a>
+  </div>
+</div>
+
+<!-- PROJECTS with FILTERS (9 items) -->
+<section id="projects">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">Projects</div>
+        <h2 class="title">Selected case studies</h2>
+        <p class="muted" style="margin:.2rem 0 0">Explore projects by category →</p>
+      </div>
+      <div class="filters">
+        <button class="btn sm filter-btn active" data-filter="all">All</button>
+        <button class="btn sm ghost filter-btn" data-filter="landingpage">LandingPage</button>
+        <button class="btn sm ghost filter-btn" data-filter="blog">Blog</button>
+        <button class="btn sm ghost filter-btn" data-filter="woocommerce">WooCommerce</button>
+        <button class="btn sm ghost filter-btn" data-filter="redesign">Redesign</button>
+        <button class="btn sm ghost filter-btn" data-filter="management">Management</button>
+      </div>
+    </div>
+
+    <div class="gallery" id="gallery">
+      <!-- 1 Doozy Bounce -->
+      <article class="project reveal" data-modal="proj-doo" data-cats="woocommerce">
+        <img class="cover" alt="Doozy Bounce cover" src="images/project04.jpg" />
+        <div class="content">
+          <h4>Doozy Bounce</h4>
+          <div class="muted">WP + Subscription</div>
+          <div class="tags" style="margin-top:.5rem">
+            <span class="tag">Play-ground</span><span class="tag">Pricing</span><span class="tag">Payment Gateway</span><span class="tag">#KITO</span>
+          </div>
+          <div class="actions"><button class="btn sm">Quick View</button><a class="btn sm ghost" href="https://doozyb.co.za" target="_blank" rel="noopener">Visit Site</a></div>
+        </div>
+      </article>
+
+      <!-- 2 AB Decorators -->
+      <article class="project reveal" style="transition-delay:.02s" data-modal="proj-abd" data-cats="redesign">
+        <img class="cover" alt="AB Decorators cover" src="images/project01.jpg" />
+        <div class="content">
+          <h4>AB Decorators</h4>
+          <div class="muted">Front-End Redesign</div>
+          <div class="tags" style="margin-top:.5rem"><span class="tag">Interior Design</span><span class="tag">Responsive</span><span class="tag">HTML, CSS & JS</span></div>
+          <div class="actions"><button class="btn sm">Quick View</button><a class="btn sm ghost" href="https//:thebmubarak.github.io/abdecorators">Visit Site</a></div>
+        </div>
+      </article>
+
+      <!-- 3 Power Beyond Psoriasis -->
+      <article class="project reveal" style="transition-delay:.04s" data-modal="proj-pow" data-cats="blog,management,redesign">
+        <img class="cover" alt="Power Beyond Psoriasis cover" src="images/project02.jpg" />
+        <div class="content">
+          <h4>Power Beyond Psoriasis</h4>
+          <div class="muted">WP + Blog</div>
+          <div class="tags" style="margin-top:.5rem"><span class="tag">Non-Profit</span><span class="tag">Blog</span><span class="tag">Donation</span><span class="tag">Live Chat</span></div>
+          <div class="actions"><button class="btn sm">Quick View</button><a class="btn sm ghost" href="https://powerbeyondpsoriasis.org" target="_blank" rel="noopener">Visit Site</a></div>
+        </div>
+      </article>
+
+      <!-- 4 CloudNerd -->
+      <article class="project reveal" style="transition-delay:.06s" data-modal="proj-clo" data-cats="woocommerce,blog">
+        <img class="cover" alt="Cloud Nerd cover" src="images/project00.jpg" />
+        <div class="content">
+          <h4>CloudNerd</h4>
+          <div class="muted">Woo Subscriptions</div>
+          <div class="tags" style="margin-top:.5rem"><span class="tag">Land Line</span><span class="tag">Woocommerce</span><span class="tag">Membership</span><span class="tag">#KITO</span></div>
+          <div class="actions"><button class="btn sm">Quick View</button><a class="btn sm ghost" href="https://cloudnerd.co.za" target="_blank" rel="noopener">Visit Site</a></div>
+        </div>
+      </article>
+
+      <!-- 5 Bloom Hair Atelier -->
+      <article class="project reveal" style="transition-delay:.08s" data-modal="proj-blo" data-cats="blog,management,redesign,woocommerce">
+        <img class="cover" alt="Bloom Hair Atelier cover" src="images/project05.jpg" />
+        <div class="content">
+          <h4>Bloom Hair Atelier</h4>
+          <div class="muted">WP + WooCommerce</div>
+          <div class="tags" style="margin-top:.5rem"><span class="tag">Hair Salon</span><span class="tag">Online Store</span><span class="tag">Blog</span></div>
+          <div class="actions"><button class="btn sm">Quick View</button><a class="btn sm ghost" href="https://bloomhairatelier.com" target="_blank" rel="noopener">Visit Site</a></div>
+        </div>
+      </article>
+
+      <!-- 6 Tsabona -->
+      <article class="project reveal" style="transition-delay:.10s" data-modal="proj-tsa" data-cats="redesign">
+        <img class="cover" alt="Tsabona Events & Branding cover" src="images/project03.jpg" />
+        <div class="content">
+          <h4>Tsabona Events & Branding</h4>
+          <div class="muted">WordPress Site</div>
+          <div class="tags" style="margin-top:.5rem"><span class="tag">Branding & Events</span><span class="tag">Light Box</span><span class="tag">Portfolio Gallery</span><span class="tag">#KITO</span></div>
+          <div class="actions"><button class="btn sm">Quick View</button><a class="btn sm ghost" href="https://tsabona.com" target="_blank" rel="noopener">Visit Site</a></div>
+        </div>
+      </article>
+
+      <!-- 7 CapeBee Drillscape -->
+      <article class="project reveal" style="transition-delay:.12s" data-modal="proj-cap" data-cats="landingpage">
+        <img class="cover" alt="CapeBee Drillscape Cover" src="images/project06.jpg" />
+        <div class="content">
+          <h4>CapeBee Drillscape</h4>
+          <div class="muted">WP + Landing Page</div>
+          <div class="tags" style="margin-top:.5rem"><span class="tag">Local Services</span><span class="tag">Booking Form</span><span class="tag">Local SEO</span><span class="tag">#KITO</span></div>
+          <div class="actions"><button class="btn sm">Quick View</button><a class="btn sm ghost" href="https://capebeedrillscape.co.za" aria-disabled="true">Visit Site</a></div>
+        </div>
+      </article>
+
+      <!-- 8 Dr dahir -->
+      <article class="project reveal" style="transition-delay:.10s" data-modal="proj-drd" data-cats="blog">
+        <img class="cover" alt="Tsabona Events & Branding cover" src="images/project07.jpg" />
+        <div class="content">
+          <h4>Dr Dahir Foundation</h4>
+          <div class="muted">Wp + Dynamic Pods</div>
+          <div class="tags" style="margin-top:.5rem"><span class="tag">Non-profit</span><span class="tag">Dynamic Project System</span><span class="tag">Donation</span></div>
+          <div class="actions"><button class="btn sm">Quick View</button><a class="btn sm ghost" href="https://drdahir.org" target="_blank" rel="noopener">Visit Site</a></div>
+        </div>
+      </article>
+
+      <!-- 9 Ask A Trichologist -->
+      <article class="project reveal" style="transition-delay:.10s" data-modal="proj-ask" data-cats="landingpage,woocommerce">
+        <img class="cover" alt="Ask A Trichologist cover" src="images/project08.jpg" />
+        <div class="content">
+          <h4>Ask A Trichologist</h4>
+          <div class="muted">Wp + Landing Page</div>
+          <div class="tags" style="margin-top:.5rem"><span class="tag">Trichology</span><span class="tag">Online Store</span><span class="tag">Pricing</span></div>
+          <div class="actions"><button class="btn sm">Quick View</button><a class="btn sm ghost" href="https://askatrichologist.com" target="_blank" rel="noopener">Visit Site</a></div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="cta reveal">
+      <div class="section-head" style="margin-bottom:.8rem">
+        <div>
+          <div class="eyebrow">Contact</div>
+          <h2 class="title">Ready for a site that performs?</h2>
+          <p class="muted" style="margin:.2rem 0 0">Clear scope . Fast delivery . Results you can measure</p>
+        </div>
+      </div>
+      <div class="hero-ctas">
+        <a href="mailto:thebmubarak@gmail.com" class="btn primary">Email: thebmubarak@gmail.com</a>
+        <a href="https://linkedin.com/in/thebmubarak" target="_blank" rel="noopener" class="btn ghost">LinkedIn</a>
+        <a href="https://instagram.com/thebmubarak" target="_blank" rel="noopener" class="btn ghost">Instagram</a>
+        <a href="https://www.github.com/thebmubarak" target="_blank" rel="noopener" class="btn ghost">Github</a>
+        <a href="https://www.facebook.com/profile.php?id=100060012433390" target="_blank" rel="noopener" class="btn ghost">Facebook</a>
+      </div>
+    </div>
+  </div>
+</section>
 
 
-<!--call to action-->
-	<section class="padded" id="cta">
-	
-		<h2 class="sub-head">The Ultimate Benefits</h2>
-		<div>
-			<p class="block">We are the <big>Best Agency</big> in the Web site Design and  Marketing sector that offers <b>100% satisfaction guarantee.</b> <br> <small>You bear no risk; all the Risk is On Us.</small></p>
-			<p>Are you ready to ascend <big>THE APEX</big> of Your Niche</p>
-			<a href="mailto:apexbamif@gmail.com" class="button">Let's Connect</a>
-		</div>
-		<div>
-			<img class="img" src="images/project4.jpg"  alt="project4">
-		</div>
-		
-	</section>
-	
-	<footer>
-		<div class="icons">
-			<a href="mailto:apexbamif@gmail.com"><i class="fa fa-envelope-o"></i><small><small>acysbamif@gmail.com</small></a>
-			<a href="https://www.instagram.com/apex_bam"><i class="fa fa-instagram"></i><small>@acysbamif</small></a>
-			<a href="https://www.facebook.com/profile.php?id=100060012433390"><i class="fa fa-facebook"></i><small>Acys&nbsp;Bamif</small></a>
-		</div>
-		
-		<p>©2024 ApexBam.</p>
-	</footer>
-	
-<!--external script link-->
-	<script type="text/javascript" src="js/script.js"></script>
-	
+  </main>
+
+  <footer>
+    <div class="container" style="display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;align-items:center">
+      <div>© <span id="year">2025</span> B. Mubarak.</div>
+      <div class="socials">
+        <span class="pill"><span class="dot"></span><span>Conversion . Performance . Satisfaction</span></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING: Back to Top -->
+
+  <div class="floating-top">
+    <button id="backToTop" class="fab" title="Back to top" aria-label="Back to top">
+      <svg class="icon" viewBox="0 0 24 24" fill="White" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+  </div>
+  <!-- FLOATING: Social Icons (bottom-right) -->
+  <div class="floating-socials" aria-label="Social links">
+    <a class="fab" href="https://linkedin.com/in/thebmubarak" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn">
+      <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 11-.02 5.001 2.5 2.5 0 01.02-5zM3 8.98h4v12H3zM9 8.98h3.8v1.64h.05c.53-.95 1.83-1.95 3.77-1.95 4.03 0 4.77 2.65 4.77 6.09v6.22h-4v-5.51c0-1.31-.02-2.99-1.82-2.99-1.82 0-2.1 1.42-2.1 2.9v5.6H9z"/></svg>
+    </a>
+    <a class="fab" href="https://instagram.com/thebmubarak target="_blank" rel="noopener" title="Instagram" aria-label="Instagram">
+      <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 2h10a5 5 0 015 5v10a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5zm0 2a3 3 0 00-3 3v10a3 3 0 003 3h10a3 3 0 003-3V7a3 3 0 00-3-3H7zm5 3.5a5.5 5.5 0 110 11.001 5.5 5.5 0 010-11zM18 6.5a1 1 0 110 2 1 1 0 010-2z"/></svg>
+    </a>
+    <a class="fab" href="https://www.facebook.com/profile.php?id=100060012433390" target="_blank" rel="noopener" title="Facebook" aria-label="Facebook">
+      <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13 22v-8h3l1-4h-4V7.5c0-1.16.34-1.95 2.02-1.95H17V2.17C16.69 2.12 15.67 2 14.49 2 11.9 2 10 3.66 10 7v3H7v4h3v8h3z"/></svg>
+    </a>
+  </div>
+
+  <!-- MODAL BACKDROP -->
+
+  <div class="modal-backdrop" id="backdrop" aria-hidden="true"></div>
+
+  <!-- MODALS (9) -->
+
+  <!-- 1 Doozy Bounce -->
+<div class="modal" id="proj-doo" role="dialog" aria-modal="true" aria-label="Doozy Bounce details">
+  <div class="panel">
+    <header>
+      <strong>Doozy Bounce</strong>
+      <button class="close" data-close>Close</button>
+    </header>
+    <div class="body">
+      <img src="images/project04.jpg" alt="Doozy Bounce screenshot" style="width:100%;border-radius:12px;border:1px solid rgba(255,255,255,.06)"/>
+      <p class="muted" style="margin-top:1rem">Conversion-oriented indoor playground booking and rental platform with subscription, pricing, and streamlined checkout. <b>#Me and KITO.</b></p>
+      <ul>
+        <li><b>Industry:</b> Indoor Playground.</li>
+        <li><b>From:</b> South Africa.</li>
+        <li><b>No.of static pages:</b> 5.</li>
+        <li><b>Blog:</b> No.</li>
+        <li><b>Woocommerce:</b> Yes.</li>
+        <li><b>Other Features:</b> Subscription, payment gateway, pricing options.</li>
+      </ul>
+      <a class="btn sm" href="https://doozyb.co.za" target="_blank" rel="noopener">Visit Site</a>
+    </div>
+  </div>
+</div>
+
+<!-- 2 AB Decorators -->
+<div class="modal" id="proj-abd" role="dialog" aria-modal="true" aria-label="AB Decorators details">
+  <div class="panel">
+    <header>
+      <strong>AB Decorators</strong>
+      <button class="close" data-close>Close</button>
+    </header>
+    <div class="body">
+      <img src="images/project01.jpg" alt="AB Decorators screenshot" style="width:100%;border-radius:12px;border:1px solid rgba(255,255,255,.06)"/>
+      <p class="muted" style="margin-top:1rem">Front-end redesign for an interior design company with responsive layouts and improved usability.</p>
+      <ul>
+        <li><b>Industry:</b> Interior Design.</li>
+        <li><b>From:</b> South Africa.</li>
+        <li><b>No.of static pages:</b> 4.</li>
+        <li><b>Blog:</b> No.</li>
+        <li><b>Woocommerce:</b> No.</li>
+        <li><b>Other Features:</b> Responsive, custom HTML/CSS/JS build.</li>
+      </ul>
+      <a class="btn sm" href="https://thebmubarak.github.io/abdecorators" target="_blank" rel="noopener">Visit Site</a>
+    </div>
+  </div>
+</div>
+
+<!-- 3 Power Beyond Psoriasis -->
+<div class="modal" id="proj-pow" role="dialog" aria-modal="true" aria-label="Power Beyond Psoriasis details">
+  <div class="panel">
+    <header>
+      <strong>Power Beyond Psoriasis</strong>
+      <button class="close" data-close>Close</button>
+    </header>
+    <div class="body">
+      <img src="images/project02.jpg" alt="Power Beyond Psoriasis screenshot" style="width:100%;border-radius:12px;border:1px solid rgba(255,255,255,.06)"/>
+      <p class="muted" style="margin-top:1rem">Non-profit WordPress site with donation system, live chat, and engaging blog to empower psoriasis patients.</p>
+      <ul>
+        <li><b>Industry:</b> Non-Profit, Health Advocacy.</li>
+        <li><b>From:</b> USA.</li>
+        <li><b>No.of static pages:</b> 5.</li>
+        <li><b>Blog:</b> Yes.</li>
+        <li><b>Woocommerce:</b> No.</li>
+        <li><b>Other Features:</b> Donation gateway, live chat support.</li>
+      </ul>
+      <a class="btn sm" href="https://powerbeyondpsoriasis.org" target="_blank" rel="noopener">Visit Site</a>
+    </div>
+  </div>
+</div>
+
+<!-- 4 CloudNerd -->
+<div class="modal" id="proj-clo" role="dialog" aria-modal="true" aria-label="CloudNerd details">
+  <div class="panel">
+    <header>
+      <strong>CloudNerd</strong>
+      <button class="close" data-close>Close</button>
+    </header>
+    <div class="body">
+      <img src="images/project00.jpg" alt="CloudNerd screenshot" style="width:100%;border-radius:12px;border:1px solid rgba(255,255,255,.06)"/>
+      <p class="muted" style="margin-top:1rem">Telecoms service platform built with WooCommerce Subscriptions, tailored membership access, and recurring billing. <b>#Me and KITO.</b></p>
+      <ul>
+        <li><b>Industry:</b> Telecoms.</li>
+        <li><b>Location:</b> South Africa.</li>
+        <li><b>No.of static pages:</b> 13.</li>
+        <li><b>Blog:</b> Yes.</li>
+        <li><b>Woocommerce:</b> Yes.</li>
+        <li><b>Other Features:</b> Membership system, Product Store, subscription billing.</li>
+      </ul>
+      <a class="btn sm" href="https://cloudnerd.co.za" target="_blank" rel="noopener">Visit Site</a>
+    </div>
+  </div>
+</div>
+
+<!-- 5 Bloom Hair Atelier -->
+<div class="modal" id="proj-blo" role="dialog" aria-modal="true" aria-label="Bloom Hair Atelier details">
+  <div class="panel">
+    <header>
+      <strong>Bloom Hair Atelier</strong>
+      <button class="close" data-close>Close</button>
+    </header>
+    <div class="body">
+      <img src="images/project05.jpg" alt="Bloom Hair Atelier screenshot" style="width:100%;border-radius:12px;border:1px solid rgba(255,255,255,.06)"/>
+      <p class="muted" style="margin-top:1rem">Stylish salon WordPress site with WooCommerce-powered store and blog integration for customer engagement.</p>
+      <ul>
+        <li><b>Industry:</b> Hair Salon.</li>
+        <li><b>Location:</b> Nigeria.</li>
+        <li><b>No.of static pages:</b> 10.</li>
+        <li><b>Blog:</b> Yes.</li>
+        <li><b>Woocommerce:</b> Yes.</li>
+        <li><b>Other Features:</b> Online booking, integrated shop, custom blog.</li>
+      </ul>
+      <a class="btn sm" href="https://bloomhairatelier.com" target="_blank" rel="noopener">Visit Site</a>
+    </div>
+  </div>
+</div>
+
+<!-- 6 Tsabona Events & Branding -->
+<div class="modal" id="proj-tsa" role="dialog" aria-modal="true" aria-label="Tsabona Events & Branding details">
+  <div class="panel">
+    <header>
+      <strong>Tsabona Events & Branding</strong>
+      <button class="close" data-close>Close</button>
+    </header>
+    <div class="body">
+      <img src="images/project03.jpg" alt="Tsabona screenshot" style="width:100%;border-radius:12px;border:1px solid rgba(255,255,255,.06)"/>
+      <p class="muted" style="margin-top:1rem">Elegant portfolio website for events and branding with lightbox galleries and smooth showcase layout. <b>#Me and KITO.</b></p>
+      <ul>
+        <li><b>Industry:</b> Branding & Events.</li>
+        <li><b>Location:</b> South Africa.</li>
+        <li><b>No.of static pages:</b> 6.</li>
+        <li><b>Blog:</b> No.</li>
+        <li><b>Woocommerce:</b> No.</li>
+        <li><b>Other Features:</b> Portfolio gallery, lightbox integration.</li>
+      </ul>
+      <a class="btn sm" href="https://tsabona.com" target="_blank" rel="noopener">Visit Site</a>
+    </div>
+  </div>
+</div>
+
+<!-- 7 CapeBee Drillscape -->
+<div class="modal" id="proj-cap" role="dialog" aria-modal="true" aria-label="CapeBee Drillscape details">
+  <div class="panel">
+    <header>
+      <strong>CapeBee Drillscape</strong>
+      <button class="close" data-close>Close</button>
+    </header>
+    <div class="body">
+      <img src="images/project06.jpg" alt="CapeBee Drillscape screenshot" style="width:100%;border-radius:12px;border:1px solid rgba(255,255,255,.06)"/>
+      <p class="muted" style="margin-top:1rem">3 Landing pages for local tree-felling, landscaping & artificial lawn services company optimized for SEO, lead generation, and appointment booking. <b>#Me and KITO.</b></p>
+      <ul>
+        <li><b>Industry:</b> Local Services.</li>
+        <li><b>Location:</b> South Africa.</li>
+        <li><b>No.of static pages:</b> 3.</li>
+        <li><b>Blog:</b> No.</li>
+        <li><b>Woocommerce:</b> No.</li>
+        <li><b>Other Features:</b> Lead capture form, SEO optimization.</li>
+      </ul>
+      <a class="btn sm" href="https://capebeedrillscape.co.za" target="_blank" rel="noopener">Visit Site</a>
+    </div>
+  </div>
+</div>
+
+<!-- 8 Dr Dahir Foundation -->
+<div class="modal" id="proj-drd" role="dialog" aria-modal="true" aria-label="Dr Dahir Foundation details">
+  <div class="panel">
+    <header>
+      <strong>Dr Dahir Foundation</strong>
+      <button class="close" data-close>Close</button>
+    </header>
+    <div class="body">
+      <img src="images/project07.jpg" alt="Dr Dahir Foundation screenshot" style="width:100%;border-radius:12px;border:1px solid rgba(255,255,255,.06)"/>
+      <p class="muted" style="margin-top:1rem">Dynamic non-profit site with custom Pods system for managing projects & participants, donation integration, event Ticket booking system and volunteer workflows.</p>
+      <ul>
+        <li><b>Industry:</b> Non-Profit.</li>
+        <li><b>Location:</b> Nigeria.</li>
+        <li><b>No.of static pages:</b> 7.</li>
+        <li><b>Blog:</b> Yes.</li>
+        <li><b>Woocommerce:</b> Yes.</li>
+        <li><b>Other Features:</b> Dynamic Pods, Ticket Booking, donation system.</li>
+      </ul>
+      <a class="btn sm" href="https://drdahir.org" target="_blank" rel="noopener">Visit Site</a>
+    </div>
+  </div>
+</div>
+
+<!-- 9 Ask A Trichologist -->
+<div class="modal" id="proj-ask" role="dialog" aria-modal="true" aria-label="Ask A Trichologist details">
+  <div class="panel">
+    <header>
+      <strong>Ask A Trichologist</strong>
+      <button class="close" data-close>Close</button>
+    </header>
+    <div class="body">
+      <img src="images/project08.jpg" alt="Ask A Trichologist screenshot" style="width:100%;border-radius:12px;border:1px solid rgba(255,255,255,.06)"/>
+      <p class="muted" style="margin-top:1rem">Health-focused landing page with WooCommerce store and service pricing module for a trichology specialist.</p>
+      <ul>
+        <li><b>Industry:</b> Health / Trichology.</li>
+        <li><b>Location:</b> Nigeria.</li>
+        <li><b>No.of static pages:</b> 9.</li>
+        <li><b>Blog:</b> No.</li>
+        <li><b>Woocommerce:</b> Yes.</li>
+        <li><b>Other Features:</b> Online store, pricing table, booking features.</li>
+      </ul>
+      <a class="btn sm" href="https://askatrichologist.com" target="_blank" rel="noopener">Visit Site</a>
+    </div>
+  </div>
+</div>
+
+  <script src="js/script.js"></script>
+
 </body>
-</html>
+</html></div>
+</div>
+
+  <script src="js/script.js"></script>
+
+</body>
+</html>>
